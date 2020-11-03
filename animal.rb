@@ -59,19 +59,21 @@ class Raccoon
 
   def check(attribute)
     if attribute > 100
-      return 100
-    end
-    if attribute < 0
-      return 0
+      attribute = 100
+    elsif attribute < 0
+      attribute = 0
     end
     attribute
   end
 end
 
-liitle_raccoon = Raccoon.new('Eli')
-p liitle_raccoon
-liitle_raccoon.eat
-liitle_raccoon.walk
-liitle_raccoon.bathing
-liitle_raccoon.sleep
-liitle_raccoon.result
+little_raccoon = Raccoon.new('Eli')
+p little_raccoon
+little_raccoon.eat
+little_raccoon.walk
+little_raccoon.walk
+little_raccoon.walk
+little_raccoon.walk
+little_raccoon.bathing
+little_raccoon.sleep
+little_raccoon.result
