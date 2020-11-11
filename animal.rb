@@ -59,11 +59,12 @@ class Raccoon
 
   def check(attribute)
     if attribute > 100
-      attribute = 100
+      100
     elsif attribute < 0
-      attribute = 0
+      0
+    else
+      attribute
     end
-    attribute
   end
 end
 
@@ -77,3 +78,4 @@ little_raccoon.walk
 little_raccoon.bathing
 little_raccoon.sleep
 little_raccoon.result
+
