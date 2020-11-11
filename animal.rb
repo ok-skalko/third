@@ -78,4 +78,3 @@ little_raccoon.walk
 little_raccoon.bathing
 little_raccoon.sleep
 little_raccoon.result
-
